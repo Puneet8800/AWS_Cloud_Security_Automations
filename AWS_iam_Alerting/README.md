@@ -1,5 +1,5 @@
 ### Purpose
- The purpose of this automation is to trigger an alert whenever an there is an IAM changes regarding user/role/policy.
+ The purpose of this automation is to trigger an alert whenever there is an IAM changes regarding user/role/policy.
 
 ### Deployment Options
 AWS Lambda
