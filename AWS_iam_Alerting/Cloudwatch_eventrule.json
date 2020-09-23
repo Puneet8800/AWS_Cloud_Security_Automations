@@ -1,0 +1,23 @@
+{
+  "detail-type": [
+    "AWS API Call via CloudTrail"
+  ],
+  "source": [
+    "aws.iam"
+  ],
+  "detail": {
+    "eventSource": [
+      "iam.amazonaws.com"
+    ],
+    "eventName": [
+      "CreatePolicy",
+      "CreatePolicyVersion",
+      "AttachGroupPolicy",
+      "DetachGroupPolicy",
+      "AttachUserPolicy",
+      "DetachUserPolicy",
+      "AttachRolePolicy",
+      "DetachRolePolicy"
+    ]
+  }
+}
