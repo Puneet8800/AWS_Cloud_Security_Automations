@@ -1,0 +1,9 @@
+- name: Python Linter
+  on: push
+  jobs:
+    python-lint:
+      name: Lint code base
+      runs-on: ubuntu-latest
+      steps:
+        - name: Python Lint Code
+          uses: sunnysid3up/python-linter@v0.1-beta.7 
