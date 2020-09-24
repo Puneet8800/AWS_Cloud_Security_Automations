@@ -9,10 +9,9 @@ Configure iam role with a persmission of s3 read only.
 
 ### How to run
 python3 public_object_in_a_bucket.py -b bucket_name
-or
-python3 public_object_in_a_bucket.py --bucket bucket_name
 
-For help 
+python3 public_object_in_a_bucket.py --bucket bucket_name
+ 
 python3 public_object_in_a_bucket.py -help
 
 ### References
