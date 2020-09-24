@@ -6,4 +6,5 @@
 1. S3 public object/bucket detection realtime.
 2. IAM activity alerting realtime.
 3. AWS Security Group misconfiguration alerting realtime.
+4. AWS Route 53 orphaned entries.
 
