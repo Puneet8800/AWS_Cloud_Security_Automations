@@ -154,7 +154,7 @@ def main():
     template['attachments'][0]['fallback'] = 'unable to display this message !'
     template['attachments'][0]['color'] = '#36a64f'
     template['attachments'][0]['pretext'] = "Orphaned Route53 entries"
-    template['attachments'][0]['title'] = "PROD"
+    template['attachments'][0]['title'] = "env"
     template['attachments'][0]['fields'] = [{"title": "Loadbalancer "}]
     
     for i,j in load.items():
@@ -167,7 +167,7 @@ def main():
     template['attachments'][0]['fallback'] = 'unable to display this message !'
     template['attachments'][0]['color'] = '#36a64f'
     template['attachments'][0]['pretext'] = "Orphaned Route53 entries"
-    template['attachments'][0]['title'] = "PROD"
+    template['attachments'][0]['title'] = "env"
     template['attachments'][0]['fields'] = [{"title": "RDS"}]
     for i,j in rds1.items():
         template['attachments'][0]['fields'].append({"value": i + " : " + j})
@@ -178,7 +178,7 @@ def main():
     template['attachments'][0]['fallback'] = 'unable to display this message !'
     template['attachments'][0]['color'] = '#36a64f'
     template['attachments'][0]['pretext'] = "Orphaned Route53 entries"
-    template['attachments'][0]['title'] = "PROD"
+    template['attachments'][0]['title'] = "env"
     template['attachments'][0]['fields'] = [{"title": "Elastic Cache"}]
     for i,j in cache1.items():
         template['attachments'][0]['fields'].append({"value": i + " : " + j})
