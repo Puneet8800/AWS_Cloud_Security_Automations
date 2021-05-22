@@ -9,4 +9,3 @@
 4. AWS Route 53 orphaned entries.
 
 
-Special thanks to Hitesh Patel: https://www.linkedin.com/in/hiteshpatel0101/, github:hiteshpatel0101.
